@@ -1,0 +1,117 @@
+{
+  "configVersion": 1,
+  "timestamp": 1648999313338,
+  "index": "https://jamp-scp28.github.io/portafolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jamp-scp28.github.io/portafolio/favicon.ico",
+        "https://jamp-scp28.github.io/portafolio/index.html",
+        "https://jamp-scp28.github.io/portafolio/main.200d79b11ae2746e.js",
+        "https://jamp-scp28.github.io/portafolio/manifest.webmanifest",
+        "https://jamp-scp28.github.io/portafolio/polyfills.f6f2a13802bd8d73.js",
+        "https://jamp-scp28.github.io/portafolio/runtime.d3d39b9783745c72.js",
+        "https://jamp-scp28.github.io/portafolio/styles.ecf74fe0c5d11674.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://jamp-scp28.github.io/portafolio/assets/Handcoding.gif",
+        "https://jamp-scp28.github.io/portafolio/assets/hand.gif",
+        "https://jamp-scp28.github.io/portafolio/assets/img/about.gif",
+        "https://jamp-scp28.github.io/portafolio/assets/img/avatar.png",
+        "https://jamp-scp28.github.io/portafolio/assets/img/background.jpg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/banner/birdLayer.svg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/banner/bottomLayer.svg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/banner/bottomLayer2.svg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/banner/jarLogo.svg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/banner/upperLayer.svg",
+        "https://jamp-scp28.github.io/portafolio/assets/img/page/page1.png",
+        "https://jamp-scp28.github.io/portafolio/assets/img/page/page2.png",
+        "https://jamp-scp28.github.io/portafolio/assets/img/page/page3.png",
+        "https://jamp-scp28.github.io/portafolio/assets/img/portafolio /project.jpg",
+        "https://jamp-scp28.github.io/portafolio/fa-brands-400.0e53fe4feaaacc48.woff",
+        "https://jamp-scp28.github.io/portafolio/fa-brands-400.7edea186e9687169.woff2",
+        "https://jamp-scp28.github.io/portafolio/fa-brands-400.9c02eaf6eede2776.ttf",
+        "https://jamp-scp28.github.io/portafolio/fa-brands-400.a76d53bf993d73a2.svg",
+        "https://jamp-scp28.github.io/portafolio/fa-regular-400.04dd5282f2256565.woff",
+        "https://jamp-scp28.github.io/portafolio/fa-regular-400.7346017cbe156280.ttf",
+        "https://jamp-scp28.github.io/portafolio/fa-regular-400.e2b3a9dcfb1fca6e.woff2",
+        "https://jamp-scp28.github.io/portafolio/fa-regular-400.ee37fbccfd7cfca6.svg",
+        "https://jamp-scp28.github.io/portafolio/fa-solid-900.620019ed9d1100b6.woff2",
+        "https://jamp-scp28.github.io/portafolio/fa-solid-900.cd7322bf5a6e6fcf.svg",
+        "https://jamp-scp28.github.io/portafolio/fa-solid-900.d5b0a3566b352ee9.ttf",
+        "https://jamp-scp28.github.io/portafolio/fa-solid-900.e67670b0779338ff.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://jamp-scp28.github.io/portafolio/assets/Handcoding.gif": "45e2df2daaaad2593b3834860f945edd17b744d6",
+    "https://jamp-scp28.github.io/portafolio/assets/hand.gif": "3847e4df9ce594973f227b57c13746b574fed675",
+    "https://jamp-scp28.github.io/portafolio/assets/img/about.gif": "90c74ac568b6069ec8e01e1855dba0655f17de2c",
+    "https://jamp-scp28.github.io/portafolio/assets/img/avatar.png": "5644b37b994857d46bbc9909878feb2403804c53",
+    "https://jamp-scp28.github.io/portafolio/assets/img/background.jpg": "7f43e7fd9c1346b80dd1fa3f93af4489ec7dd8d1",
+    "https://jamp-scp28.github.io/portafolio/assets/img/banner/birdLayer.svg": "d1b45366fa7e4762d9cc2a06a6ed686a9bf9d527",
+    "https://jamp-scp28.github.io/portafolio/assets/img/banner/bottomLayer.svg": "a5f7b2b6ebe5b83f30217c9a29847cf93b57d602",
+    "https://jamp-scp28.github.io/portafolio/assets/img/banner/bottomLayer2.svg": "99bf3448d9fc2b89d79321c68b5613873e847fbd",
+    "https://jamp-scp28.github.io/portafolio/assets/img/banner/jarLogo.svg": "72e511660cca8a127f21398e8741b594158dc214",
+    "https://jamp-scp28.github.io/portafolio/assets/img/banner/upperLayer.svg": "c8ec61ebe7f80b2cbe58242299fafb61cea70643",
+    "https://jamp-scp28.github.io/portafolio/assets/img/page/page1.png": "6f866de8dc6432390eddba9002dbda8396ff6661",
+    "https://jamp-scp28.github.io/portafolio/assets/img/page/page2.png": "db4414baf19485ae46e59a11821cc775e36bc0d8",
+    "https://jamp-scp28.github.io/portafolio/assets/img/page/page3.png": "bebbadb848e78a0c6882b5eb0078a8c0f0ca6ae3",
+    "https://jamp-scp28.github.io/portafolio/assets/img/portafolio /project.jpg": "9763666d300cf6383210c22a62ada22cabb195eb",
+    "https://jamp-scp28.github.io/portafolio/fa-brands-400.0e53fe4feaaacc48.woff": "1e1f02bfa89e179fe2dd1383273b8812aa873418",
+    "https://jamp-scp28.github.io/portafolio/fa-brands-400.7edea186e9687169.woff2": "0613c7ebba55ee47ef302c0f7766324692f899a7",
+    "https://jamp-scp28.github.io/portafolio/fa-brands-400.9c02eaf6eede2776.ttf": "8ab907083fecaaa2a9ec93b27f884ad74573705c",
+    "https://jamp-scp28.github.io/portafolio/fa-brands-400.a76d53bf993d73a2.svg": "907bfbbe295332750575900984a00136de0f0e90",
+    "https://jamp-scp28.github.io/portafolio/fa-regular-400.04dd5282f2256565.woff": "3ad4f4e4b1fb3edee3d4ba25e6cdfed2f0b88a54",
+    "https://jamp-scp28.github.io/portafolio/fa-regular-400.7346017cbe156280.ttf": "c34acd6818df6db6be41a2e331886765d601f2eb",
+    "https://jamp-scp28.github.io/portafolio/fa-regular-400.e2b3a9dcfb1fca6e.woff2": "13517529affa39e2585c591acae6dc336b6aa917",
+    "https://jamp-scp28.github.io/portafolio/fa-regular-400.ee37fbccfd7cfca6.svg": "326e1d8f0b23f6df95cd6784fdf330bc6414ecd0",
+    "https://jamp-scp28.github.io/portafolio/fa-solid-900.620019ed9d1100b6.woff2": "0ccb2c814a7e4ca12c4778821633809cb0361eaa",
+    "https://jamp-scp28.github.io/portafolio/fa-solid-900.cd7322bf5a6e6fcf.svg": "d92687d30fa0d43f9ae71009398507bf813a6875",
+    "https://jamp-scp28.github.io/portafolio/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
+    "https://jamp-scp28.github.io/portafolio/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
+    "https://jamp-scp28.github.io/portafolio/favicon.ico": "00d1f8c433b2e03118812eeb694ffd5da0717e12",
+    "https://jamp-scp28.github.io/portafolio/index.html": "6ac450557194bb64e2e84de552637127a802425f",
+    "https://jamp-scp28.github.io/portafolio/main.200d79b11ae2746e.js": "bb17e65362b586845f5c186b212a682b2b32f4d1",
+    "https://jamp-scp28.github.io/portafolio/manifest.webmanifest": "667f60576bd8c0bb127f5c69876868509b564e9f",
+    "https://jamp-scp28.github.io/portafolio/polyfills.f6f2a13802bd8d73.js": "f5cda1f1d88f6ed8dbd6106fb8a164b77deb6c16",
+    "https://jamp-scp28.github.io/portafolio/runtime.d3d39b9783745c72.js": "daf5092e1d36c745154d01cc72dfbc43494d2961",
+    "https://jamp-scp28.github.io/portafolio/styles.ecf74fe0c5d11674.css": "3120b7f3224bf8cceca974879a0caa5dac63f519"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
