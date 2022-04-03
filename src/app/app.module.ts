@@ -28,7 +28,6 @@ import { portafolioData } from './services/portafolioData';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    ServiceWorkerModule.register('./ngsw-worker.js', { enabled: environment.production }),
     FormsModule,
     HttpClientModule,
     RouterModule,
