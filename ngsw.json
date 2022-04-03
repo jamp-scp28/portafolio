@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648999908445,
+  "timestamp": 1649000846243,
   "index": "https://jamp-scp28.github.io/portafolio/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://jamp-scp28.github.io/portafolio/favicon.ico",
         "https://jamp-scp28.github.io/portafolio/index.html",
-        "https://jamp-scp28.github.io/portafolio/main.666cd9c9a3033799.js",
+        "https://jamp-scp28.github.io/portafolio/main.8bed59b7cc734151.js",
         "https://jamp-scp28.github.io/portafolio/manifest.webmanifest",
         "https://jamp-scp28.github.io/portafolio/polyfills.f6f2a13802bd8d73.js",
         "https://jamp-scp28.github.io/portafolio/runtime.d3d39b9783745c72.js",
@@ -88,8 +88,8 @@
     "https://jamp-scp28.github.io/portafolio/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://jamp-scp28.github.io/portafolio/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://jamp-scp28.github.io/portafolio/favicon.ico": "00d1f8c433b2e03118812eeb694ffd5da0717e12",
-    "https://jamp-scp28.github.io/portafolio/index.html": "ca5cbd6675014c15d3bdbe93bf4325a53499135c",
-    "https://jamp-scp28.github.io/portafolio/main.666cd9c9a3033799.js": "805bff681acba3754fc4ff40c1b099e9ad776337",
+    "https://jamp-scp28.github.io/portafolio/index.html": "f2db4f0f9c75533357d725de1fa5f2097c8e8113",
+    "https://jamp-scp28.github.io/portafolio/main.8bed59b7cc734151.js": "e25bcabd14061d6ceaa8ef0be04ecf511f55a57e",
     "https://jamp-scp28.github.io/portafolio/manifest.webmanifest": "667f60576bd8c0bb127f5c69876868509b564e9f",
     "https://jamp-scp28.github.io/portafolio/polyfills.f6f2a13802bd8d73.js": "f5cda1f1d88f6ed8dbd6106fb8a164b77deb6c16",
     "https://jamp-scp28.github.io/portafolio/runtime.d3d39b9783745c72.js": "daf5092e1d36c745154d01cc72dfbc43494d2961",
