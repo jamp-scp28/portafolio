@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin: 0px;
+  color: #777;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: end;
+  margin-right: 5%;
+  margin-top: 5px;
+  animation: move 0.8s fade-in;
+}
+
+.wrapperMove {
+  display: flex;
+  justify-content: center;
+  animation: move 0.8s fade-in;
+}
+
+@keyframes move {
+  20% {
+    transform: translateX(0.5, 0.5);
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(1, 1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/////styles for the content
+
+//STYLES FOR HOME SECTION//
+.logo {
+  width: 100px;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #30a7d6;
+  padding-left: 5rem;
+}
+
+.homeItems {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.cursor {
+  position: fixed;
+  background-color: #311b92;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: -10px 0 0 -10px;
+  will-change: transform;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.shapes {
+  position: relative;
+  height: 100vh;
+  height: 100vh;
+  background-color: #025a8a;
+  overflow: hidden;
+
+  .shape {
+    will-change: transform;
+    position: absolute;
+    border-radius: 50%;
+    $shapes: (
+      rgb(109, 114, 114): 400px,
+      #fff: 300px,
+      rgb(50, 80, 80): 220px,
+    );
+
+    @each $color, $size in $shapes {
+      &.shape-#{index($shapes, ($color $size))} {
+        background-color: $color;
+        width: $size;
+        height: $size;
+        margin: (-$size/2) 0 0 (-$size/2);
+      }
+    }
+  }
+}
+
+.content {
+  padding-top: 5.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  //background-image: url('https://firebasestorage.googleapis.com/v0/b/myprojects-37d11.appspot.com/o/Portafolio%2FbottomLayer.svg?alt=media&token=35393b58-3720-4eae-9b72-2a074091c186');
+  background-color: #227aff;
+  mix-blend-mode: color-dodge;
+  z-index: 600;
+
+  h1 {
+    color: white;
+    padding-left: 5%;
+    font-size: 5rem;
+  }
+}
+
+.pro {
+  position: relative;
+  overflow: hidden;
+}
+
+.hi {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 4vw;
+  border-radius: 15%;
+}
+
+.pro .box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background-color: purple;
+  height: 1vh;
+  z-index: -50;
+  border-radius: 15%;
+}
+
+.pro .proText {
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: normal;
+  font-size: 3vw;
+  padding-left: 0vw;
+  display: inline-block;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 3.5rem;
+}
+.main {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 0;
+  position: relative;
+}
+.profesion {
+  color: #face30;
+  font-weight: 900;
+  animation: fadeAndScale 2s;
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+    transform: scale3d(0.75, 0.75, 1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #face30;
+  }
+  49% {
+    background-color: #face30;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #face30;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .img-about {
+    max-width: 50vh;
+  }
+
+  .about_me {
+    padding-top: 5%;
+  }
+
+  .title-about {
+    margin-bottom: 0px;
+  }
+}
+
+.parallax {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.parallax__cover {
+  background: #2d112b;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 2000px;
+  z-index: 2;
+}
+
+.bannerImg {
+  width: 100%;
+  height: auto;
+}
+
+$parallax__layers: 6;
+
+.splash {
+  height: 0px;
+  padding: 0px;
+  border: 130em solid #039be5;
+  position: fixed;
+  left: 50%;
+  top: 100%;
+  display: block;
+  box-sizing: initial;
+  overflow: hidden;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: puff 0.5s 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 2s 1s linear forwards;
+}
+
+@keyframes init {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes puff {
+  0% {
+    top: 100%;
+    height: 0px;
+    padding: 0px;
+  }
+  100% {
+    top: 50%;
+    height: 100%;
+    padding: 0px 100%;
+  }
+}
+
+@keyframes borderRadius {
+  0% {
+    border-radius: 30%;
+  }
+  100% {
+    border-radius: 0px;
+  }
+}
+
+@keyframes materia {
+  0% {
+    background: #039be5;
+  }
+  50% {
+    background: #039be5;
+  }
+  100% {
+    background: #311b92;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

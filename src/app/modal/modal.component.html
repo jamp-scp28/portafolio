@@ -1,0 +1,20 @@
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.close()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h1>new</h1>
+    <h1>new</h1>
+    <div style="width: 100%; height: 500px">somehting</div>
+  </div>
+  <div class="modal-footer"></div>
+</ng-template>
+
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
+
+<hr />
+
+<pre>{{ closeResult }}</pre>

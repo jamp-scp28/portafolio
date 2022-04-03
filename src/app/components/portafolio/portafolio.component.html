@@ -1,0 +1,57 @@
+<div class="portafolio-wrapper">
+  <h1 class="title-portafolio">Projects</h1>
+  <div class="row portafolio-items">
+    <div
+      *ngFor="let item of modalContents"
+      id="{{ item.id }}"
+      (mouseover)="imageHover(item.id)"
+      (mouseout)="imageHoverOut(item.id)"
+      class="col-6 col-lg-4 portafolioItem portafolioItem-{{ item.id }}"
+      data-aos="flip-left"
+    >
+      <div class="container-logo">
+        <a class="logo" (click)="openModal(item.id)"
+          ><img class="item-img itemImg{{ item.id }}" src="{{ item.media1 }}" alt="ProjectImage"
+        /></a>
+      </div>
+      <br />
+      <h4 class="item-title item-title{{ item.id }}">{{ item.title }}</h4>
+      <button (click)="openModal(item.id)" class="portafolioBtn portafolioBtn{{ item.id }}">Open</button>
+    </div>
+  </div>
+
+  <div #itemModal class="itemModal">
+    <div class="card">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">{{ itemData?.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div>
+              <img src="{{ itemData?.media1 }}" alt="Media1" class="img-fluid" />
+            </div>
+            <div class="project-basic-info">
+              <p>{{ itemData?.media2 }}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h1 class="project-description-title">About this Project</h1>
+            <p class="project-description-info">{{ itemData?.description }}</p>
+            <br />
+            <p class="project-description-info" *ngIf="itemData?.tags !== ''">Tags: {{ itemData?.tags }}</p>
+            <br />
+            <p class="project-description-info" *ngIf="itemData?.link !== ''">
+              Related Link: <a href="{{ itemData?.link }}" style="color: inherit" target="_blank">Let's Go!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer"></div>
+      <a class="modal-close" (click)="closeModal()">
+        <i class="fas fa-times"> Close Project</i>
+      </a>
+    </div>
+  </div>
+</div>

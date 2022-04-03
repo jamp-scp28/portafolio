@@ -1,0 +1,117 @@
+//STYLES FOR PORTAFOLIO SECTION//
+.portafolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  //background-image: url('../../assets/img/background.jpg');
+  background-color: #000431; /* Used if the image is unavailable */
+  padding-left: 3%;
+  padding-right: 4%;
+}
+
+.title-portafolio {
+  font-weight: bold;
+  color: #fff;
+}
+.portafolio-items {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 80%;
+  width: 100%;
+  max-width: 100%;
+  background-color: #039be5;
+  border-radius: 1%;
+  padding: 0.5vw;
+}
+.item-img {
+  height: auto;
+  max-height: 12vw;
+  width: 25vw;
+  border-radius: 5%;
+}
+
+.logo:hover {
+  cursor: pointer;
+  animation: show 1s;
+}
+
+.portafolioItem {
+  background-color: #fff;
+  margin: 1vw;
+  width: auto;
+  border-radius: 50% 50% 2% 2%;
+}
+
+.box-img {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.portafolioBtn {
+  margin-bottom: 0.2vw;
+  height: auto;
+  width: auto;
+  border-radius: 20% 20% 5% 5%;
+  background-color: #039be5;
+  color: #fff;
+  font-weight: 500;
+}
+//RESPONSIVE//
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .portafolioItem {
+    -webkit-box-flex: 0;
+  }
+}
+
+//modal
+
+.itemModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+  //animation: init 0.5s forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards, ease forwards;
+}
+
+.card {
+  background-color: #039be5;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  height: 100%;
+}
+
+.modal-title,
+.project-basic-info,
+.project-description-title,
+.project-description-info {
+  color: #fff;
+}
+
+.modal-close {
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
