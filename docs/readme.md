@@ -2,9 +2,9 @@
 
 # Simple Portafolio Website
 
-> ### Angular starter config generate with ngX-Rocket.
-
 Portafolio website built with Angular, TailwindCss, and Gsap, deployed to GithubPages.
+
+> Angular starter config generate with ngX-Rocket.
 
 Author
 --------
