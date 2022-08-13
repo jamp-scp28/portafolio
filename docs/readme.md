@@ -1,9 +1,12 @@
-# ngX-Rocket
+[![MIT](https://poser.pugx.org/pixel418/markdownify/license)](https://opensource.org/licenses/MIT)
 
-Welcome to the project documentation!
+# Simple Portafolio Website
 
-Use `npm run docs` for easier navigation.
+### Created using ngX-Rocket generate app
 
-## Available documentation
+Portafolio website built with Angular, TailwindCss, and Gsap, deployed to GithubPages.
 
-[[index]]
+Author
+--------
+
+Jorge Armando Molano Prada @2022
