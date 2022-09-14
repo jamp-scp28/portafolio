@@ -1,6 +1,6 @@
 [![MIT](https://poser.pugx.org/pixel418/markdownify/license)](https://opensource.org/licenses/MIT)
 
-# Simple Portafolio Website
+# Portafolio Website
 
 Portafolio website built with Angular, TailwindCss, and Gsap, deployed to GithubPages.
 
